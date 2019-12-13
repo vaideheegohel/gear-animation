@@ -1,0 +1,331 @@
+body{
+	text-align: center;
+}
+.container {
+    position: relative;
+    text-align: left;
+    padding-top: 58px;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+.proprietary-engine-image .proprietary-engine-bg {
+	background-image: url(./../images/gear-image.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 620px;
+    width: 103%;
+    background-position-y: -15px;
+    background-position-x: -65px;
+}
+.proprietary-engine-image .gear {
+    width: 300px;
+    display: table;
+    height: 300px;
+    position: absolute;
+}
+.proprietary-engine-image .gear-content:after {
+	content: "";
+	background-image: url(./../images/gear-box.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	animation: rotation 30s infinite linear;
+	transition:all 0.2s linear;
+}
+.proprietary-engine-image .gear-analytics .gear-content:after,
+.proprietary-engine-image .gear-innovation .gear-content:after {
+	animation-direction: reverse;
+}
+@-webkit-keyframes rotation {
+	from {
+			-webkit-transform: rotate(0deg);
+	}
+	to {
+			-webkit-transform: rotate(359deg);
+	}
+}
+.proprietary-engine-image .gear-content a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 50%;
+	z-index: 1;
+}
+.proprietary-engine-image .gear-content:hover:after { background-image: url(./../images/gear-box-fill.png) }
+.proprietary-engine-image .gear-impact {
+	left: 60px;
+    top: 180px;
+}
+.proprietary-engine-image .gear-network {
+	top: 54px;
+    left: 457px;
+}
+.proprietary-engine-image .gear-analytics {
+	top: 314px;
+    left: 322px;
+}
+.proprietary-engine-image .gear-innovation {
+	top: 254px;
+    left: 675px;
+}
+.proprietary-engine-image .gear-content {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 40px;
+	color: #c0a480;
+	text-align: center;
+	position: relative;
+} 
+.proprietary-engine-image .gear-desc {
+	width: 72%;
+	margin: auto;
+	line-height: 1.3;
+}
+.proprietary-engine-image .gear-content img {
+	height: 40px;
+    width: auto;
+    max-width: inherit;
+}
+
+@media screen and (max-width: 1599px) {
+	.proprietary-engine-image .gear
+	{
+		width: 250px;
+		height: 250px;
+	}
+	.proprietary-engine-image  {
+		width: 790px;
+	    margin: auto;
+	    position: relative;
+	}
+	.proprietary-engine-image .proprietary-engine-bg {
+		height: 509px;
+		width: 100%;
+		background-position-y: 37px;
+		background-position-x: -62px;
+	}
+	.proprietary-engine-image .gear-content img {
+		height: 30px;
+	}
+	.proprietary-engine-image .gear-impact {
+		left: 20px;
+		top: 150px;
+	}
+	.proprietary-engine-image .gear-analytics {
+		top: 261px;
+		left: 237px;
+	}
+	.proprietary-engine-image .gear-network {
+		top: 43px;
+		left: 348px;
+	}
+	.proprietary-engine-image .gear-innovation {
+	    top: 207px;
+    	left: 530px;
+	}
+	.proprietary-engine-image .gear-desc {
+		width: 95%;
+	}
+}
+@media screen and (max-width: 1440px) {
+	
+}
+@media screen and (max-width: 1399px) {
+	.proprietary-engine-image .gear
+	{
+		width: 240px;
+		height: 240px;
+	}
+	.proprietary-engine-image  {
+		width: 700px;
+	    margin: auto;
+	    position: relative;
+	}
+	.proprietary-engine-image .proprietary-engine-bg {
+		background-position-y: 5px;
+	}
+	.proprietary-engine-image .gear-content img {
+		height: 30px;
+	}
+	.proprietary-engine-image .gear-impact {
+		left: -25px;
+		top: 150px;
+	}
+	.proprietary-engine-image .gear-analytics {
+		top: 257px;
+		left: 184px;
+	}
+	.proprietary-engine-image .gear-network {
+		top: 48px;
+		left: 290px;
+	}
+	.proprietary-engine-image .gear-innovation {
+		top: 205px;
+		left: 465px;
+	}
+	.proprietary-engine-image .gear-desc {
+	    width: 100%;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.proprietary-engine-image .gear
+	{
+		width: 210px;
+		height: 210px;
+	}
+	.proprietary-engine-image  {
+		width: 590px;
+	}
+	.proprietary-engine-image .proprietary-engine-bg {
+		height: 479px;
+		background-position-y: 16px;
+		background-position-x: -49px;
+	}
+	.proprietary-engine-image .gear-content img {
+		height: 25px;
+	}
+	.proprietary-engine-image .gear-impact {
+		left: -5px;
+		top: 150px;
+	}
+	.proprietary-engine-image .gear-analytics {
+		top: 244px;
+		left: 177px;
+	}
+	.proprietary-engine-image .gear-network {
+		top: 45px;
+		left: 220px;
+	}
+	.proprietary-engine-image .gear-innovation {
+		top: 138px;
+		left: 401px;
+	}
+	.proprietary-engine-image .gear-desc {
+		line-height: 1.2;
+	}
+}
+@media screen and (max-width: 1024px)
+{
+	
+}
+@media screen and (max-width: 991px)
+{
+	.proprietary-engine-image  {
+		width: 387px;
+	}
+	.proprietary-engine-image .proprietary-engine-bg {
+		height: 646px;
+		background-image: none;
+	}
+	.proprietary-engine-image .gear-content img {
+		height: 25px;
+	}
+	.proprietary-engine-image .gear-impact {
+		left: 0;
+		top: 0;
+	}
+	.proprietary-engine-image .gear-analytics {
+		top: 138px;
+		left: 153px;
+	}
+	.proprietary-engine-image .gear-network {
+		top: 291px;
+		left: 15px;
+	}
+	.proprietary-engine-image .gear-innovation {
+		top: 429px;
+		left: 168px;
+	}
+}
+@media screen and (max-width: 980px)
+{
+	
+}
+@media screen and (max-width: 964px) {
+	
+}
+@media screen and (max-width: 767px)
+{
+    /*button center*/
+    .proprietary-engine-image  {
+		width: 337px;
+	}
+	.proprietary-engine-image .proprietary-engine-bg {
+		height: 646px;
+		background-image: none;
+	}
+	.proprietary-engine-image .gear-content img {
+		height: 25px;
+	}
+	.proprietary-engine-image .gear-impact {
+		left: 0;
+		top: 0;
+	}
+	.proprietary-engine-image .gear-analytics {
+		top: 138px;
+		left: 153px;
+	}
+	.proprietary-engine-image .gear-network {
+		top: 291px;
+		left: 15px;
+	}
+	.proprietary-engine-image .gear-innovation {
+		top: 429px;
+		left: 168px;
+	}
+	
+}
+@media screen and (max-width: 600px) {
+	
+}
+@media screen and (max-width: 480px)
+{
+	
+	.proprietary-engine-image  {
+		width: 290px;
+	}
+	.proprietary-engine-image .proprietary-engine-bg {
+		height: 806px;
+		background-image: none;
+	}
+	.proprietary-engine-image .gear-content img {
+		height: 25px;
+	}
+	.proprietary-engine-image .gear-content {
+		padding: 30px;
+	}
+	.proprietary-engine-image .gear {
+		height: 180px;
+		width: 180px;
+	}
+	.proprietary-engine-image .gear-impact {
+		left: 0;
+		top: 0;
+	}
+	.proprietary-engine-image .gear-analytics {
+		top: 150px;
+		left: auto;
+		right: 12px;
+	}
+	.proprietary-engine-image .gear-network {
+		top: 308px;
+		left: 18px;
+	}
+	.proprietary-engine-image .gear-innovation {
+		top: 477px;
+		left: auto;
+		right: 37px;
+	}
+	.proprietary-engine-image .gear-desc {
+		display: none;
+	}
+}
